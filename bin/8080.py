@@ -293,7 +293,7 @@ def banner():
     print(' \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\' + Style.RESET_ALL + Style.BRIGHT)
     print(Fore.WHITE + '\nPowered by ' + Fore.BLUE + 'Pyt' + Fore.YELLOW
           + 'hon' + Fore.WHITE + '\nCopyright (C) 2017, Zvonimir Rudinski')
-# Help functiono
+# Help function
 def print_help():
     print('\nThis ' + Fore.BLUE + 'Intel' + Fore.WHITE + ' 8080 assembler was made for ' + Fore.BLUE + 'Project ' + Fore.YELLOW + 'Week' + Fore.WHITE + ' in my school')
     print('It is written in ' + Fore.BLUE + 'Pyt' + Fore.YELLOW + 'hon' + Fore.WHITE)
@@ -364,7 +364,7 @@ def start(arg=None):
         print(Fore.WHITE + 'Closing down... ' + Fore.YELLOW + '\'' + file_name + Fore.WHITE + '\'\nEverything went ' + Fore.GREEN + 'fine')
     # Universal exception handler
     except (KeyboardInterrupt, EOFError, IOError,SyntaxError):
-        print(Fore.RED + '\nExiting...')
+        print(FPore.RED + '\nExiting...')
         exit(-1)
 # Call main
 if __name__ == "__main__":
